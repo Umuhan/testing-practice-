@@ -1,4 +1,4 @@
-function stringLength(num) {
-  return num.length;
+function reverseString(num) {
+  return num.split("").reverse().join("");
 }
-module.exports = stringLength;
+module.exports = reverseString;

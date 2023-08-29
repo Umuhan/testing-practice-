@@ -1,9 +1,9 @@
 // stringLength.test.js
 
-const stringLength = require("./app.js");
+const reverseString = require("./app.js");
 
-test("returns correct length of a string", () => {
-  expect(stringLength("hello")).toBe(5);
-  expect(stringLength("")).toBe(0);
-  expect(stringLength("1234567890")).toBe(10);
+test("returns correct reverse of a string", () => {
+  expect(reverseString("hello")).toBe("olleh");
+
+  expect(reverseString("1234567890")).toBe("0987654321");
 });
